@@ -1,6 +1,8 @@
 <template>
-  <div class="dark:bg-midnight w-screen h-screen overflow-y-scroll relative">
-    <nav-bar />
+  <nav-bar />
+  <div
+    class="w-screen h-screen max-w-[1920px] m-auto overflow-y-scroll relative"
+  >
     <router-view />
   </div>
 </template>

@@ -6,10 +6,12 @@ module.exports = {
     "./public/**/*.html",
     "./src/**/*.{js,jsx,ts,tsx,vue}",
   ],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: true, // or 'media' or 'class'
   theme: {
     fontSize: {
-      title: "30px",
+      "title-lg": "30px",
+      "title-title-md": "30px",
+      "title-lg": "30px",
     },
     colors: {
       transparent: "transparent",

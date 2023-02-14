@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-wrap">
+  <div class="flex flex-wrap w-screen">
     <div
       class="w-full md:w-1/2 sm:w-full lg:w-1/3 h-auto text-cente p-3 transition ease-in-out delay-150 hover:rotate-2 duration-300"
     >
@@ -95,17 +95,17 @@
   </div>
 </template>
 <script setup lang="ts">
-import { ref } from "vue";
+import { ref, onMounted } from "vue";
 
 // defineProps<{ msg: string }>();
+import { useHomeStore } from "../store/useHomeStore";
 
+const homeStore = useHomeStore();
 const count = ref(0);
+
+onMounted(() => {
+  console.log("Here is home store", homeStore.lang);
+});
 </script>
 
-<style lang="scss" scoped>
-.Helloworld {
-  .text {
-    color: blue;
-  }
-}
-</style>
+<style lang="scss" scoped></style>

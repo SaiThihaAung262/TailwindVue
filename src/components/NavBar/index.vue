@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="navbar bg-orange-50 z-10 fixed flex flex-wrap justify-between items-center w-screen h-10 lg:h-20 md:h-20 sm:h10 pl-10 pr-10"
+    class="navbar z-10 fixed flex flex-wrap justify-between items-center w-screen h-10 lg:h-20 md:h-20 sm:h10 pl-10 pr-10"
   >
     <h1
       class="text-midnight text-title-md font-semibold lg:text-title-lg md:text-title-md sm:text-title-md"

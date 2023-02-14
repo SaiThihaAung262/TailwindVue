@@ -4,7 +4,7 @@ export const mainRouters = [
   {
     path: "/home",
     name: "home",
-    component: () => import("./../../components/HelloWorld.vue"),
+    component: () => import("./../../pages/Home/index.vue"),
   },
 ];
 

@@ -101,7 +101,6 @@ import { ref, onMounted } from "vue";
 import { useHomeStore } from "../store/useHomeStore";
 
 const homeStore = useHomeStore();
-const count = ref(0);
 
 onMounted(() => {
   console.log("Here is home store", homeStore.lang);
